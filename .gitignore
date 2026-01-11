@@ -1,0 +1,63 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Raw & intermediate data
+# =========================
+data/raw/**/*
+!data/raw/**/README.md
+!data/raw/**/download_*.py
+!data/raw/**/fetch_*.py
+
+data/interim/**/*
+data/final/**/*
+!data/final/README.md
+
+# =========================
+# Large data formats
+# =========================
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.gpkg
+*.zip
+*.7z
+
+# =========================
+# Logs & outputs
+# =========================
+*.log
+*.tmp
+*.cache
+
+# =========================
+# Jupyter exports
+# =========================
+*.html
+*.pdf
